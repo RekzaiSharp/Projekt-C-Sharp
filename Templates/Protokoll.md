@@ -9,5 +9,5 @@
 ### Agenda
 
 ### Fürs Nächste mal
-
+.
 # Mitschrift
