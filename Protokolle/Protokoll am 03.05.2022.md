@@ -22,7 +22,7 @@
 ### Fürs Nächste mal
 - [[User Story]]s erstellen für die einzelnen [[Task]]s
 - [[Max]]: Obsidian, Docker Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
-- [[Stefan]] und [[Kevin]]: [[CI & CD]]/[[VM-Ware]]
+- [[Stefan]] und [[Kevin]]: [[CI & CD]]/[[VM-Ware]]/[[NPM]]
 - [[Robin]]: [[Git-Lab]]
 - [[Daniel]]: [[SAST]]
 - [[Nick]]: [[Maven]]
