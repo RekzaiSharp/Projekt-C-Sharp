@@ -15,7 +15,7 @@
 - [[Userstorys]] erstellen
 - [[Akzeptanzkriterien]] erstellen
 - Oetzel nerven (nach Passwort und Zugang fragen)
-- [[Google-Drive]] einrichten
+- [[GitHub]] einrichten
 - Backup?
 - Sicherheitskopie weil nicht gespeichert wird?
 
