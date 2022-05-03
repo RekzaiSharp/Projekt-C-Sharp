@@ -22,7 +22,7 @@
 ### Fürs Nächste mal
 - [[User Story]]s erstellen für die einzelnen [[Task]]s
 - [[Max]]: Obsidian, Docker Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
-- [[Stefan]] und [[Kevin]]: [[CI & CD]]/[[VM-Ware]]/[[NPM]]
+- [[Stefan]] und [[Kevin]]: [[CICD]]/[[VM-Ware]]/[[NPM]]
 - [[Robin]]: [[Git-Lab]]
 - [[Daniel]]: [[SAST]]
 - [[Nick]]: [[Maven]]
@@ -39,4 +39,4 @@
 - GitHub erstellt https://github.com/RekzaiSharp/Projekt-C-Sharp
 - Obsidian Synchronisiert
 - Backups [[Robin]] / [[Nick]] (jeden Tag bei Änderung)
-- Oetzel nerven abgeschlossen, jeder ist drin
+- Oetzel nerven abgeschlossen, jeder ist drin https://devsecops.emceeo.de/ [[Git-Lab]]
