@@ -1,4 +1,4 @@
-**Server - Virtual Machine**
+<font color="coral">Server - Virtual Machine </font>
 
 **Server IP**: unbekannt
 **Server Port**: unbekannt
@@ -11,4 +11,11 @@ Eine Verbindung zu dem Server können wir mit dem Programm [PuTTY](https://www.c
 Nachdem wir die Verbindungsinformationen wie IP Address und Port eingegeben haben können wir entweder die Session speichern damit wir diesen Prozess nicht wiederholen müssen oder einafch eine Session öffnen.
 
 Sobald wir die Session/Verbindung geöffnet haben werden wir nach unseren Anmeldedaten gefragt, diese könnt ihr unter eurem Teameintrag finden.
+Sobald ihr eure Daten eingegeben habt, könnt ihr auf die Virtuelle Maschiene zugreifen und via Linux Commands arbeiten.
 
+Um einfacher Daten auf die Virtuelle Maschiene zu laden können wir auch Tools wie [FileZilla](https://filezilla-project.org/) nutzen, hier gebt ihr wie bei PuTTY einfach eure Anmeldedaten ein und könnt so wie im Explorer von Windows Datein und Ordner via Drag'n'Drop hochladen.
+
+**Nützliche Links**
+[Linux Commands](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+[FileZilla](https://filezilla-project.org/)
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
