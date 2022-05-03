@@ -27,7 +27,9 @@
 - [[Daniel]]: [[SAST]]
 - [[Nick]]: [[Maven]]
 
-- [[GitHub Desktop]] besorgen
+
+- Bis Freitag: [[Userstorys]] + [[GitHub Desktop]] besorgen
+- Bis Dienstag: [[Akzeptanzkriterien]] + [[Abnahmekriterien]]
 
 # Mitschrift
 - [[User Story]]s für alle [[Task]]s erstellt und digitalisiert
@@ -36,4 +38,5 @@
 - C.Sharp.th@gmail.com erstellt (PW: cshraps01)
 - GitHub erstellt https://github.com/RekzaiSharp/Projekt-C-Sharp
 - Obsidian Synchronisiert
-- 
+- Backups [[Robin]] / [[Nick]] (jeden Tag bei Änderung)
+- Oetzel nerven abgeschlossen, jeder ist drin
