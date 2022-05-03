@@ -35,4 +35,4 @@
 - [[Robin]] eingeführt
 - C.Sharp.th@gmail.com erstellt (PW: cshraps01)
 - GitHub erstellt https://github.com/RekzaiSharp/Projekt-C-Sharp
-- 
+- Obsidian Synchronisiert
