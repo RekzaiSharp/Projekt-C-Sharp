@@ -1,0 +1,35 @@
+# Protokoll am 03.05.2022
+### Anwesenden
+- [[Robin]]
+- [[Max]]
+- [[Nick]]
+- [[Stefan]]
+- [[Daniel]]
+- [[Kevin]]
+
+### Agenda
+- Planning
+- [[Robin]] einführen
+- Team auf den gleichen Stand bringen
+
+- [[Userstorys]] erstellen
+- [[Akzeptanzkriterien]] erstellen
+- Oetzel nerven (nach Passwort und Zugang fragen)
+- [[Google-Drive]] einrichten
+- Backup?
+- Sicherheitskopie weil nicht gespeichert wird?
+
+### Fürs Nächste mal
+- [[User Story]]s erstellen für die einzelnen [[Task]]s
+- [[Max]]: Obsidian, Docker Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
+- [[Stefan]] und [[Kevin]]: [[CI & CD]]/[[VM-Ware]]
+- [[Robin]]: [[Git-Lab]]
+- [[Daniel]]: [[SAST]]
+- [[Nick]]: [[Maven]]
+
+
+# Mitschrift
+- [[User Story]]s für alle [[Task]]s erstellt und digitalisiert
+- Gruppenaufteilung fertiggestellt
+- [[Robin]] eingeführt
+- 

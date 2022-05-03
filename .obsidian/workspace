@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "999d87e2766172fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b16382990fce6ba1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tools/Google-Drive.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e2c3c03cf58a697",
+    "type": "split",
+    "children": [
+      {
+        "id": "30e79e3323fe64ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26b17061b1d2bb39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c5d62a0bd5e15657",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "db5c142efc552961",
+    "type": "split",
+    "children": [
+      {
+        "id": "da4114d978421359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9e468c7dfeb8f66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Google-Drive.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b16382990fce6ba1",
+  "lastOpenFiles": [
+    "Tools/Google-Drive.md",
+    "Tools/Virtual Machine.md",
+    "Senior Buildmanager.md",
+    "Team/Robin.md",
+    "Protokolle/Protokoll am 03.05.2022.md",
+    "Pasted image 20220503120438.png",
+    "Pasted image 20220503120442.png",
+    "Tools/Git-Lab.md",
+    "Team/Nick.md",
+    "Team/Daniel.md"
+  ]
+}
