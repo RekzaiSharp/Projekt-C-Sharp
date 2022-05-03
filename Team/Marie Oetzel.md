@@ -1,3 +1,3 @@
 # Marie Oetzel
 
-*Rolle* Chief Product Owner
+*Rolle* [[Chief Product Owner]]
