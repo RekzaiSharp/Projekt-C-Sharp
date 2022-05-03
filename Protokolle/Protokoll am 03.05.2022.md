@@ -27,9 +27,12 @@
 - [[Daniel]]: [[SAST]]
 - [[Nick]]: [[Maven]]
 
+- [[GitHub Desktop]] besorgen
 
 # Mitschrift
 - [[User Story]]s für alle [[Task]]s erstellt und digitalisiert
 - Gruppenaufteilung fertiggestellt
 - [[Robin]] eingeführt
+- C.Sharp.th@gmail.com erstellt (PW: cshraps01)
+- GitHub erstellt https://github.com/RekzaiSharp/Projekt-C-Sharp
 - 
