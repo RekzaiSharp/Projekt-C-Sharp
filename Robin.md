@@ -8,8 +8,9 @@ Stoopid
 | --- | --- | --- |
 |   X  |     |  O   |
 |     |  O   |  X   |
-|     |     |     |
+|  X   |     |     |
 
 ima fck you up
 You wish
 😂
+alt + 3 ♥
