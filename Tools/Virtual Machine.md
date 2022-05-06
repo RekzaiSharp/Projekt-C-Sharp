@@ -17,5 +17,7 @@ Um einfacher Daten auf die Virtuelle Maschiene zu laden können wir auch Tools w
 
 **Nützliche Links**
 [Linux Commands](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
-[FileZilla](https://filezilla-project.org/)
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+<a href="ttps://filezilla-project.org"><input type="button" style="  background-color: #f55856; color: white; border: none; display: inline-block; padding: 15px 32px; fonz-size: 16px; text-decoration: none; border-style: round" value="Download FileZilla"></a>
+
+<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"><input type="button" style="  background-color: #4CAF50; color: white; border: none; display: inline-block; padding: 15px 35px; fonz-size: 16px; text-decoration: none; border-style: round" value="Download PuTTY"></a>
