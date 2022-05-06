@@ -1,14 +1,15 @@
 # Protokoll am 
 ### Anwesenden
-- [[Robin]]
-- [[Max]]
-- [[Nick]]
-- [[Stefan]]
-- [[Daniel]]
-- [[Kevin]]
+- [ ] Robin
+- [ ] Max
+- [ ] Nick
+- [ ] Stefan
+- [ ] Daniel
+- [ ] Kevin
 
 ### Agenda
-
+- [ ] x
+- [ ] 
 ### Fürs Nächste mal
 .
 # Mitschrift

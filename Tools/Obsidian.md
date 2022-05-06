@@ -7,6 +7,13 @@
 ### #:
 Werden für viele Dinge genutzt. Als Überschrift in Kombination mit einem Leerzeichen danach, für #Hashtags um die Notiz unter einem Überbegriff zusammen zu fassen oder für Unterteilungen im Dokument selber. Je mehr #, desto kleiner die Überschrift.
 
+### Aktuelle Hashtags und deren Nutzung:
+#Hashtags Einfaches Beispiel für Hashtags, keine aktuelle Nutzung.
+#LearningBacklog Alle Notizen die ins *Learning Backlog* kommen sollen, bitte hiermit markieren. (Rot auf dem Graphennetz)
+#Agenda [[Stefan]] what does this mean?
+#Daily [[Stefan]] what does this mean?
+
+
 ### [[]]:
 Werden für intern verlinkte Notizen genutzt, benutzt man Beispielsweise einen Namen (Bsp: [[Max]]) oder einen Begriff mit definitionsbedarf (Bsp: [[CICD]]), kann man diese so direkt auf diese Verweisen. In der Graphensicht werden die beiden Notizen ebenfalls verbunden.
 

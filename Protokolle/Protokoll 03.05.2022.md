@@ -1,11 +1,11 @@
 # Protokoll am 03.05.2022
 ### Anwesenden
-- [[Robin]]
-- [[Max]]
-- [[Nick]]
-- [[Stefan]]
-- [[Daniel]]
-- [[Kevin]]
+- [ ] Robin
+- [ ] Max
+- [ ] Nick
+- [ ] Stefan
+- [ ] Daniel
+- [ ] Kevin
 
 ### Agenda
 - Planning
