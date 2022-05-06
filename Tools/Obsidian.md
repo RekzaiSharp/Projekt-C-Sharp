@@ -18,7 +18,7 @@ Werden für viele Dinge genutzt. Als Überschrift in Kombination mit einem Leerz
 Werden für intern verlinkte Notizen genutzt, benutzt man Beispielsweise einen Namen (Bsp: [[Max]]) oder einen Begriff mit definitionsbedarf (Bsp: [[CICD]]), kann man diese so direkt auf diese Verweisen. In der Graphensicht werden die beiden Notizen ebenfalls verbunden.
 
 ### Die Graphensicht:
-Oben links befindet sich ein Symbol was aussieht wie ein Cluster aus Punkten, klickt man dieses werden einem alle Notizen angezeigt als Punktcluster. Die einzelnen Notizen sind verknüpft und können so visuell dargestellt werden. Falls man einzelne Bereiche hervorheben oder einteilen möchte, kann man diese mittels Gruppen farblich abheben (Bsp: Alle Protokolle sind Grün).
+Oben links befindet sich ein Symbol was aussieht wie ein Cluster aus Punkten, klickt man dieses werden einem alle Notizen angezeigt als Punktcluster. Die einzelnen Notizen sind verknüpft und können so visuell dargestellt werden. Falls man einzelne Bereiche hervorheben oder einteilen möchte, kann man diese mittels Gruppen farblich abheben (Bsp: *groups* - *file: Protokoll* - *Grün*).
 
 ### Templates:
 Um nicht 100 mal das gleiche Tippen zu müssen, sind Templates die beste Wahl für Shortcuts. Unter *Einstellungen* - *Core Plugins* - *Templates* können diese aktiviert werden. Um den Ordner für Templates festzulegen, einfach unter *Einstellungen* - *Plugin Options* - *Templates* - *Template Folder Location* den Ordner Templates auswählen.
