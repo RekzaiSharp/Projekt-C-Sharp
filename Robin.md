@@ -7,5 +7,7 @@ Stoopid
 | Tik | Tak | Toe |
 | --- | --- | --- |
 |   X  |     |     |
+|     |  O   |     |
 |     |     |     |
-|     |     |     |
+
+ima fck you up
