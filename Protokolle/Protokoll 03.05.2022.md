@@ -1,11 +1,11 @@
 # Protokoll am 03.05.2022
 ### Anwesenden
-- [[Robin]]
-- [[Max]]
-- [[Nick]]
-- [[Stefan]]
-- [[Daniel]]
-- [[Kevin]]
+- [ ] Robin
+- [ ] Max
+- [ ] Nick
+- [ ] Stefan
+- [ ] Daniel
+- [ ] Kevin
 
 ### Agenda
 - Planning
@@ -21,7 +21,7 @@
 
 ### Fürs Nächste mal
 - [[User Story]]s erstellen für die einzelnen [[Task]]s
-- [[Max]]: Obsidian, Docker Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
+- [[Max]]: [[Obsidian]], [[Docker]] Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
 - [[Stefan]] und [[Kevin]]: [[CICD]]/[[VM-Ware]]/[[NPM]]
 - [[Robin]]: [[Git-Lab]]
 - [[Daniel]]: [[SAST]]
