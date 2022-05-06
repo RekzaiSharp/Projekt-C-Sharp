@@ -9,7 +9,7 @@
 
 ### Agenda
 - Planning
-- [[Robin]] einführen
+- [[Team/Robin]] einführen
 - Team auf den gleichen Stand bringen
 
 - [[Userstorys]] erstellen
@@ -23,7 +23,7 @@
 - [[User Story]]s erstellen für die einzelnen [[Task]]s
 - [[Max]]: [[Obsidian]], [[Docker]] Erklärung schreiben, Masterwissen aneignen und Infolinks beilegen 
 - [[Stefan]] und [[Kevin]]: [[CICD]]/[[VM-Ware]]/[[NPM]]
-- [[Robin]]: [[Git-Lab]]
+- [[Team/Robin]]: [[Git-Lab]]
 - [[Daniel]]: [[SAST]]
 - [[Nick]]: [[Maven]]
 
@@ -34,9 +34,9 @@
 # Mitschrift
 - [[User Story]]s für alle [[Task]]s erstellt und digitalisiert
 - Gruppenaufteilung fertiggestellt
-- [[Robin]] eingeführt
+- [[Team/Robin]] eingeführt
 - C.Sharp.th@gmail.com erstellt (PW: cshraps01)
 - GitHub erstellt https://github.com/RekzaiSharp/Projekt-C-Sharp
 - Obsidian Synchronisiert
-- Backups [[Robin]] / [[Nick]] (jeden Tag bei Änderung)
+- Backups [[Team/Robin]] / [[Nick]] (jeden Tag bei Änderung)
 - Oetzel nerven abgeschlossen, jeder ist drin https://devsecops.emceeo.de/ [[Git-Lab]]
