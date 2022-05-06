@@ -5,6 +5,7 @@
 - [[Nick]]
 - [[Stefan]]
 - [[Daniel]]
+- [[Kevin]]
 
 ### Agenda
 
