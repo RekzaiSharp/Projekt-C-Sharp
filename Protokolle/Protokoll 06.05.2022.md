@@ -23,5 +23,5 @@
 # Mitschrift
 - SAST, SEMgrep und DASD sind in GitLab direkt eingebaut als Plugins, Infos auf der Seite selber [[Daniel]]
 - Fortschritt Obsidian Wiki erklärt [[Max]]
-- Userstorys erstellt [[Nick]]
+- User Storys erstellt [[Nick]]
 - GitHub Wiki erstellt [[Robin]]
