@@ -1,4 +1,3 @@
-# Protokoll am 
 ### Anwesenden
 - [ ] Robin
 - [ ] Max
@@ -17,5 +16,13 @@
 - [ ] @[[Daniel]]: konntest du dein Impediment lösen?
 
 ### Fürs Nächste mal
-- [ ] 
+- [ ] [[Nick]] am Freitag nicht da
+- [ ] [[Robin]] und [[Daniel]] [[Semgrep]] arbeiten
 # Mitschrift
+- Planning learnings:
+	- mehr Tiefe besser (konkrete Tasks)
+	- extra Recherchephase nötig
+	- [x] Wiki nötig für Definitionen und Workflow
+
+- [[Robin]] erklärt [[Pipeline]] und [[CICD]]
+- Arbeiten Solo

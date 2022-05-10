@@ -1,4 +1,3 @@
-# Protokoll am 
 ### Anwesenden
 - [ ] Robin
 - [ ] Max
