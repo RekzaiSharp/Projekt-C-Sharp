@@ -12,3 +12,7 @@ Der praktische Einsatz funktioniert über folgende Bausteine:
 - Der Inhalt eines Pakets muss in JSON geschrieben sein
 - "Name" und "Version" müssen in der Definitionsdatei vorhanden sein. Weitere zwingende Bedingungen gibt es nicht.
 - Zudem bietet npm auch eine Abhängigkeitsverwaltung
+
+Nützliche Links:
+Hauptwebsite (Zum suchen der Pakete): https://www.npmjs.com/
+Command Cheat-Sheet: https://www.freecodecamp.org/news/npm-cheat-sheet-most-common-commands-and-nvm/
