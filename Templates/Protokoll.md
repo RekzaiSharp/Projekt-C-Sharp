@@ -8,8 +8,10 @@
 - [ ] Kevin
 
 ### Agenda
-- [ ] x
 - [ ] 
+
+
 ### Fürs Nächste mal
-.
+- [ ] 
+
 # Mitschrift
