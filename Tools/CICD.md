@@ -13,7 +13,7 @@
 - Der gesammte CI/CD-Prozess ist zu einer <u>Pipeline</u> zusammengefasst, der die Stages in einer bestimmten Reihenfolge automatisch ausführt.
 
 # CI/CD in GitLab
-- In GitLab wird der CI/CD-Prozess mit Hilfe der Datei <font color= "yellow"> .gitlab-ci.yml </color> definiert. Sie kommt in das Hauptverzeichnis des GitLab-Repository.
+- In GitLab wird der CI/CD-Prozess mit Hilfe der Datei <font-color= "yellow"> .gitlab-ci.yml </font-color> definiert. Sie kommt in das Hauptverzeichnis des GitLab-Repository.
 	-> Die Dateiendung .yml verweist darauf, dass sie in der Auszeichnungssprache YAML geschrieben wird:
 	https://de.wikipedia.org/wiki/YAML
 	https://docs.gitlab.com/ee/ci/yaml/index.html
