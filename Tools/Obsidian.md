@@ -52,4 +52,4 @@ https://rossgriffin.com/tutorials/obsidian-basics-guide/ hat viele hilfreiche Sa
 - [ ] Nick
 - [ ] Stefan
 - [ ] Daniel
-- [ ] Kevin
+- [x] Kevin
