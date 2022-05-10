@@ -1,4 +1,3 @@
-# Protokoll am 
 ### Anwesenden
 - [ ] Robin
 - [ ] Max
@@ -18,10 +17,10 @@
 - Klären ob Frau Oetzel gerne Zugang zum Wiki hätte
 - Definitionen in Obsidian einfügen
 - Klärung ob Reihenfolge der Tasks passt
-- Maven aufsetzen [[Robin]]
+- [[Maven]] aufsetzen [[Robin]]
 - [[Obsidian]] überfliegen
 # Mitschrift
-- SAST, SEMgrep und DASD sind in GitLab direkt eingebaut als Plugins, Infos auf der Seite selber [[Daniel]]
+- [[SAST]], [[Semgrep]] und [[DASD]] sind in GitLab direkt eingebaut als Plugins, Infos auf der Seite selber [[Daniel]]
 - Fortschritt Obsidian Wiki erklärt [[Max]]
 - User Storys erstellt [[Nick]]
-- GitHub Wiki erstellt [[Robin]]
+- [[GitHub]] Wiki erstellt [[Robin]]

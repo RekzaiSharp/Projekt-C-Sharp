@@ -45,3 +45,11 @@ Mittels Ctrl + P kann man die Command Pallete öffnen. Hauptsächlich werdet ihr
 ### Source:
 https://rossgriffin.com/tutorials/obsidian-basics-guide/ hat viele hilfreiche Sachen.
 (Me cause i was stoopid and didn't look at the link above before writing about *tables*)
+
+# Gelesen?
+- [ ] Robin
+- [x] Max
+- [ ] Nick
+- [ ] Stefan
+- [ ] Daniel
+- [x] Kevin
