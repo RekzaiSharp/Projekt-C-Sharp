@@ -1,3 +1,4 @@
+
 ### Anwesenden
 - [ ] Robin
 - [ ] Max
@@ -22,3 +23,8 @@
 	- Was für Probleme gab es?
 		- Wikis wurden nicht erstellt
 		- Abnahmekriterium "Wikis erstellen" hat gefehlt
+
+![[Pasted image 20220517111242.png]]
+
+- Karl WEEEEEEEEEEEEEE
+- 20 211
