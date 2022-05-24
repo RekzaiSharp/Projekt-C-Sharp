@@ -3,6 +3,8 @@
 **Server IP**: unbekannt
 **Server Port**: unbekannt
 
+<b>Linux-Distribution</b>: unbekannt
+
 **Wie kann ich eine Verbidung zu dem Server herstellen?**
 Eine Verbindung zu dem Server können wir mit dem Programm [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) herstellen, hier können wir über das Interface unsere Serveradresse und unseren Port eingeben.
 
