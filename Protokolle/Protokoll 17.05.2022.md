@@ -8,9 +8,9 @@
 - [ ] Kevin
 
 ### Agenda
-- [ ] Review
-- [ ] Retro
-- [ ] Planning
+- [x] Review
+- [x] Retro
+- [x] Planning
 
 
 ### Fürs Nächste mal
