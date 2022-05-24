@@ -7,7 +7,7 @@ Das Tool ist ein kostenfreies Open-Source-Projekt und auf GitHub verfügbar.
 https://aquasecurity.github.io/trivy/v0.28.0/
 
 ## Installation
-<u>PT-Installationsbefehl:</u>
+<u>APT-Installationsbefehl:</u>
 ```
 sudo apt-get install wget apt-transport-https gnupg lsb-release
 wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -

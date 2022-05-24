@@ -1,6 +1,6 @@
 # CICD Projekt 1 & 2
-Unser Projekt wird mit der Hilfe der [CICD-Pipeline](Tools/CICD) und [Maven](Tools/Maven) compiled und getestet. 
-Die CICD-Pipeline wird auf [GitLab](Tools/GitLab) über einen sogenannten [GitLab Runner](Wiki/GitLab/Runner) ausgeführt, dieser führt die von uns angegebenen Befehle innerhalb unserer [.yml](Wiki/GitLab/yml) Datei über einen [Docker](Tools/Docker) aus der auf einer [Virtuellen Maschiene](Virtual Machine) läuft.
+Unser Projekt wird mit der Hilfe der [CICD-Pipeline](CICD.md) und [Maven](Maven.md) compiled und getestet. 
+Die CICD-Pipeline wird auf [GitLab](Tools/GitLab) über einen sogenannten [GitLab Runner](Wiki/GitLab/Runner) ausgeführt, dieser führt die von uns angegebenen Befehle innerhalb unserer [.yml](Wiki/GitLab/yml) Datei über einen [Docker](Docker.md) aus der auf einer [Virtuellen Maschiene](Virtual Machine) läuft.
 
 **CICD Projekt 1 - Todo-List**
 _Stages: Build, Testing, Deploy, Cleanup_
