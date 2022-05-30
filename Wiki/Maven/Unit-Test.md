@@ -1,0 +1,1 @@
+**Unit-Tests** sind premade Tests welche auf Source-Code-Level, die erstellten Funktionen überpruft. Sie sind nur für Funktionen ausgelegt, welche ein Ergebnis Returnen. Sollte eine Funktion kein return-value haben, muss diese in [[Integration-Test]]s oder [[System-Test]]s geprüft werden.
