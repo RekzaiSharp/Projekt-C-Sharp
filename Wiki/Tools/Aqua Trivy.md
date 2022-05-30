@@ -19,6 +19,16 @@ sudo apt-get install trivy
 <u>Binary (über GitHub)</u>
 https://github.com/aquasecurity/trivy/releases/tag/v0.28.0
 
+<u>Docker</u>
+
+```
+docker pull aquasec/trivy:0.28.0
+```
+
+```
+docker run --rm -v [YOUR_CACHE_DIR]:/root/.cache/ aquasec/trivy:0.28.0 image [YOUR_IMAGE_NAME]
+```
+
 ## Anwendung
 
 Die folgenden Artefakte können von Trivy gescannt werden:

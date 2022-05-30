@@ -19,7 +19,16 @@ Der GitHub Marketplace enthält OWASP ZAP als vorgefertigte Actions:
 https://github.com/marketplace?query=owasp+zap
 
 ## Anwendung
+
+#### Desktop:
 https://www.zaproxy.org/getting-started
+
+
+#### Automatisierung mittels Docker-Container:
+https://www.zaproxy.org/docs/docker/
+
+#### Weitere Automatisierung über YAML-Datei:
+https://www.zaproxy.org/docs/automate/automation-framework/
 
 ## Wiki
 Eine Wiki für OWASP ZAP ist auf GItHub verfügbar:
