@@ -14,5 +14,5 @@ Der praktische Einsatz funktioniert über folgende Bausteine:
 - Zudem bietet npm auch eine Abhängigkeitsverwaltung
 
 Nützliche Links:
-Hauptwebsite (Zum suchen der Pakete): https://www.npmjs.com/
+Hauptwebsite (Zum Suchen der Pakete): https://www.npmjs.com/
 Command Cheat-Sheet: https://www.freecodecamp.org/news/npm-cheat-sheet-most-common-commands-and-nvm/
