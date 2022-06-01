@@ -28,7 +28,7 @@ Wie können wir alte Pipelines automatisch löschen, um den belegten Speicher fr
 	- volumes (repos) docker volume deleten zum freigeben
 	- docker images
 - eigene kleine Pipeline die genau diesen Befehl ausführt
-- sceduels unter Github bsps
+- schedules unter Github bsps
 
 Sollen wir die ToDo Liste und den Juiceshop in jeweils eigenen Containern, oder direkt auf dem Runner laufen lassen:
 - ????
