@@ -24,3 +24,4 @@ Für die Implementierung müssen daher folgenden Informationen in den Job der gi
 #### Docker
 ``docker run --rm -v "${PWD}:/src" returntocorp/semgrep --config=auto
 
+## Konfiguration .semgrepignore

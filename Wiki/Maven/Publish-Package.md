@@ -1,4 +1,5 @@
-**Publish-Package** - In dieser Aufgabe wird das fertige Package von der CI/CD-Pipeline in die Package Registry von GitLab hochgeladen. Diese können dort veröffentlicht und geteilt werden, um in anderen Projekten als Abhängigkeit verwendet zu werden.
+# **Publish-Package**
+In dieser Aufgabe wird das fertige Package von der CI/CD-Pipeline in die Package Registry von GitLab hochgeladen. Diese können dort veröffentlicht und geteilt werden, um in anderen Projekten als Abhängigkeit verwendet zu werden.
 
 ![[Pasted image 20220530142625.png]]
 
