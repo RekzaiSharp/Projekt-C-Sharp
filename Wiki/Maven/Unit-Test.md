@@ -1,4 +1,4 @@
-**Unit-Tests** sind premade Tests welche auf Source-Code-Level, die erstellten Funktionen überprüft. Sie sind nur für Funktionen ausgelegt, welche ein Ergebnis Returnen. Sollte eine Funktion kein return-value haben, muss diese in [[Integration-Test]]s oder [[System-Test]]s geprüft werden.
+**Unit-Tests** sind premade Tests welche auf Source-Code-Level, die erstellten Funktionen überprüft. Sie sind nur für Funktionen ausgelegt, welche ein Ergebnis Returnen. Sollte eine Funktion kein return-value haben, muss diese in [[3. integration-test]]s oder [[System-Test]]s geprüft werden.
 
 Merkmale für einen Unit-Test:
 

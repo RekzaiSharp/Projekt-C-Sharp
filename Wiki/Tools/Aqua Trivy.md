@@ -37,4 +37,29 @@ Die folgenden Artefakte können von Trivy gescannt werden:
 - Dateisysteme und Rootfs
 - Git-Repositories
 
-Mögliche Modi sind <u>Standalone</u> und <u>Client/Server</u>
+Im Folgenden werden die Anwendungsfälle "nach Vulnerabilities scannen", "nach Miskonfigurationen scannen" und "nach Secrets scannen"
+
+
+## Vulnerabilities
+
+<b>Ein Image nach Vulnerabilities scannen:</b>
+
+``$ trivy image [YOUR_IMAGE_NAME]
+
+(Siehe hierzu auch: 
+https://aquasecurity.github.io/trivy/v0.28.0/docs/vulnerability/scanning/image/)
+
+<b>Einen Dateipfad scannen (file system)</b>
+
+``$ trivy fs [Dateipfad]
+
+<b>Trivy im Server Mode laufen lassen</b>
+
+``$ trivy server
+
+Anschließend mittels --server Trivy als Client über den Server laufen lassen, z.B.:
+
+``$ trivy fs --server http://localhost:4954 --severity CRITICAL ./integration/testdata/fixtures/fs/pom/
+
+
+## Misconfigurations

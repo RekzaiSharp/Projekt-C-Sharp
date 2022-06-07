@@ -26,7 +26,7 @@
 _Wikieinträge müssen deutlicher sein und mehr ins Thema eingehen, besonders wenn es um das Thema Security geht. Wir müssen hier wirklich jeden Schritt verstehen._
 
 # Fragen für Fachkräfte
-- [[Unit-Test]] vs Integration Test, deterministisch oder nicht?
+- [[Wiki/Maven/Unit-Test]] vs Integration Test, deterministisch oder nicht?
 
 # Learnings
 [[Product Owner]] macht Userstorys und das Team macht daraus Tasks. Diese Tasks werden bearbeitet und nach 2-Augen-Prinzip freigegeben. Sind alle Tasks freigegeben, kann die Userstory im Review vorgestellt werden und vom [[Product Owner]] abgefragt werden.

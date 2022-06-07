@@ -8,3 +8,6 @@ Die Daten, die an die Registry übertragen werden, werden komprimiert, bevor sie
 >`$docker push [OPTIONS] NAME[:TAG]`
 
  Um das Image in unsere private Registry zu übertragen, müssen wir unser Image mit dem Hostnamen des Rechners, auf dem die Registry läuft, neu kennzeichnen.
+
+Nach erfolgreichem Push befindet sich der Container unter https://devsecops.emceeo.de/itsec_ss22_csharps/cicdprojekt1/container_registry:
+![[Pasted image 20220607111111.png]]
