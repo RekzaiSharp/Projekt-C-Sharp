@@ -11,3 +11,10 @@ Merkmale für einen Unit-Test:
 - Testet einzelne Funktionen ohne Gesamtüberblick
 
 https://www.testim.io/blog/unit-test-vs-integration-test/
+
+# Wie Implementiert man Unit-Tests?
+![[Pasted image 20220608190647.png]]
+Über den in Maven vorhandenen Command "mvn test" kann man [[2. unit-test]] ausführen. 
+
+![[Pasted image 20220608191108.png]]
+Um stattdessen einen [[3. integration-test]] durchzuführen, muss man nur "mvn test" mit "mvn verify" ersetzen.
