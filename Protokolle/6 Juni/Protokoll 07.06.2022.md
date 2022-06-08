@@ -11,7 +11,9 @@
 
 
 ### Fürs Nächste mal
-- [ ] Mittwoch Mittag [[Max]] [[Nick]]
+- [x] Mittwoch Mittag [[Max]] [[Nick]]
+- [ ] Probleme mit Mapping
+- [ ] Erst Pullen, dann arbeiten, dann Pushen
 
 # Mitschrift
 - Account Login Probleme [[Daniel]]
