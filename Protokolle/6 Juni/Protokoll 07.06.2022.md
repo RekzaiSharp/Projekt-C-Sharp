@@ -12,7 +12,7 @@
 
 ### Fürs Nächste mal
 - [x] Mittwoch Mittag [[Max]] [[Nick]]
-- [ ] Probleme mit Mapping
+- [x] Probleme mit Mapping
 - [ ] Erst Pullen, dann arbeiten, dann Pushen
 
 # Mitschrift
