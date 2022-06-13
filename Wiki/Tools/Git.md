@@ -14,21 +14,24 @@ Initialisiert einen Ordner als lokales Git-Repository.
 Das Repository wird direkt in das aktuelle Working Directory geklont.
 
 ### git fetch
+Ruft den Header des Remote Repositories ab und aktualisert den des lokalen Repository.
+Eine "best practice" ist, diesen Befehl mittels Option --all auszuführen, damit nicht nur der aktuelle Branch aktualisiert wird.
 
 ### git pull
 Holt sich die aktuellen Dateien von einem Repository.
 
-### git add
-Fügt eine Datei dem Git Repository hinzu, sodass 
+### git add {Dateiname}
+Fügt eine Datei dem Git Repository hinzu, sodass diese im nächsten Commit registriert wird.
+Um alle Änderungen hinzuzufügen, nutzt man am besten "git add ." (<u>Punkt</u> als Platzhalter für "alle").
 
 ### git rm
-
+Entfert eine Datei aus dem aktuellen Branch, sodass diese nicht im nächsten Commit berücksichtigt wird.
 
 ### git commit
 Sichert den aktuellen Arbeitsfortschritt (working tree) in einem sogenannten Commit.
 
 ### git push
-Lädt den aktuellen Commit in ein Repository.
+Lädt den aktuellen Commit in ein Repository. <b>Erst dann sind die Änderungen des Commits im Repository verfügbar!</b>
 
 ### git branch
 
