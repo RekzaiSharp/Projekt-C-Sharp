@@ -6,6 +6,7 @@ https://www.zaproxy.org/
 
 Ein Open-Source-Tool von OWASP, das einen dynamischen Penetration Test von Webanwendungen ermöglicht.
 ZAP funktioniert wie eine "Man-in-the-Middle"-Attack: es versucht als Proxy zwischen dem Browser und der Webapplikation Nachrichten abzufangen, ihre Inhalte auszulesen und zu modifizieren. 
+Das Tool ist als Desktop-Version verfügbar, lässt sich aber in die CI/CD-Pipeline einbinden (siehe "Anwendung").
 
 ## Installation
 
@@ -23,9 +24,10 @@ https://github.com/marketplace?query=owasp+zap
 #### Desktop:
 https://www.zaproxy.org/getting-started
 
-
 #### Automatisierung mittels Docker-Container:
 https://www.zaproxy.org/docs/docker/
+
+
 
 #### Weitere Automatisierung über YAML-Datei:
 https://www.zaproxy.org/docs/automate/automation-framework/

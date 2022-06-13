@@ -63,3 +63,7 @@ Anschließend mittels --server Trivy als Client über den Server laufen lassen, 
 
 
 ## Misconfigurations
+
+<b>Ein Image nach Misconfigurations absuchen:</b>
+
+``$ trivy config [Pfad zum Container]
