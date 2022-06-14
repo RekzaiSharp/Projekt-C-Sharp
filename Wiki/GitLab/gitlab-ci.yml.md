@@ -89,3 +89,9 @@ https://devsecops.emceeo.de/help/ci/yaml/index
 - Wie Python werden Abschnitte durch Einrückung untergliedert. 
 - <b> DIE EINRÜCKUNGEN SOLLTEN NIEMALS MIT DER TABULATORTASTE ERFOLGEN, SIE MACHEN DIE DATEI IM SCHLIMMSTEN FALL UNBRAUCHBAR!</b>
 - Kommentaren wird das '#' vorangestellt (ebenfalls wie in Python).
+
+## Fehlerbehebung
+
+- <b>Meine gitlab-ci.yml funktioniert nicht!</b>
+	--> Sind die Jobs richtig konfiguriert, d.h. keine Syntax-Fehler in der YAML?
+	--> Enthält ein Job eine "only"-Variable? Diese restriktiert den Branch, in denen der Job ausgeführt werden darf!!
