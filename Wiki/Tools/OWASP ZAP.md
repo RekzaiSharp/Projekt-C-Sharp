@@ -27,10 +27,15 @@ https://www.zaproxy.org/getting-started
 #### Automatisierung mittels Docker-Container:
 https://www.zaproxy.org/docs/docker/
 
-
-
 #### Weitere Automatisierung über YAML-Datei:
 https://www.zaproxy.org/docs/automate/automation-framework/
+
+## Baseline Scan vs. Full Scan
+Für OWASP ZAP sind zwei Modi verfügbar: Baseline Scan und Full Scan
+
+### Baseline Scan
+`` zap-baseline.py -t <target> [options]
+
 
 ## Wiki
 Eine Wiki für OWASP ZAP ist auf GItHub verfügbar:
