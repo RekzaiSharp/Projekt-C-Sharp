@@ -18,3 +18,11 @@ https://www.testim.io/blog/unit-test-vs-integration-test/
 
 ![[Pasted image 20220608191108.png]]
 Um stattdessen einen [[3. integration-test]] durchzuführen, muss man nur "mvn test" mit "mvn verify" ersetzen.
+
+Beide Befehle kann man ebenfalls mit dem Argument "Clean" erweitern, um die Zielablage zu leeren, bevor die Tests durchgeführt werden.
+
+![[Pasted image 20220621110604.png]]
+
+
+
+Source: https://jenkov.com/tutorials/maven/maven-commands.html
