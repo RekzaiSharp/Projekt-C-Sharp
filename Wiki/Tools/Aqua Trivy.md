@@ -37,7 +37,7 @@ Die folgenden Artefakte können von Trivy gescannt werden:
 - Dateisysteme und Rootfs
 - Git-Repositories
 
-Im Folgenden werden die Anwendungsfälle "nach Vulnerabilities scannen", "nach Miskonfigurationen scannen" und "nach Secrets scannen"
+Im Folgenden werden die Anwendungsfälle "nach Vulnerabilities scannen", "nach Miskonfigurationen scannen" und "nach Secrets scannen" näher beschrieben.
 
 
 ## Vulnerabilities
