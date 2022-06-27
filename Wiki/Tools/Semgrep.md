@@ -34,7 +34,7 @@ In der Konfigurationsdatei .semgrepignore können Dateien angegeben werden, die 
 - \# führt einen Kommentar an (wie in Python).
 
  ### Beispieldatei:
-````
+```
 #Common large paths
 node_modules/
 build/
@@ -55,6 +55,28 @@ tests/
 
 # Semgrep-action log folder
 .semgrep_logs/
-````
+```
 Siehe auch: 
 https://semgrep.dev/docs/ignoring-files-folders-code/
+
+## Regeln definieren
+Es lassen sich auf verschiedene Weisen Regeln definieren. Normalerweise kann man mit dem oben genannten `semgrep ci --config auto` automatisch Regeln für sich finden lassen, was meistens auch funktioniert. Für uns wäre höchstens noch die Regeldefinition durch eine YAML file interessant.
+Als erstes muss eine `rule.yaml` Datei erstellt und gefüllt werden.
+
+Beispiel YAML file:
+```
+rules:
+- id: is-comparison
+  languages:
+    - python
+  message: The operator 'is' is for reference equality, not value equality! Use
+  `==` instead!
+  pattern: $SOMEVAR is "..."
+  severity: ERROR
+```
+
+Beim semgrep Aufruf in der CI/CD Pipeline kann man mit dem folgendem Kommando die erstellen Regeln ausführen:
+`semgrep --config path/to/rule.yaml`
+
+Es lassen sich auch mehrere Regeln gleichzeitig ausführen lassen:
+`semgrep --config p/python --config myrules/myrule.yaml`
