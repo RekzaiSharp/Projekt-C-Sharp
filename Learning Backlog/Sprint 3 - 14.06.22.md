@@ -1,6 +1,6 @@
 # Sprint 3 - 14.06.22
 
-## Ergebnis Retrospektive:
+## Ergebnis Starfish-Retrospektive:
 ![[retro-c-sharps-140622.jpg]]
 
 <b>Start:</b>
