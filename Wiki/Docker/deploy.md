@@ -6,8 +6,33 @@ Die notwendigen Daten finden wir als Gruppenvariablen in unserem GitLab:
 Ganz links ist der Typ der Variablen angegeben. Key ist der Name und unter Value können wir den Wert sehen, welcher standardmäßig ausgeblendet ist, aber mit einem Klick eingeblendet oder kopiert werden kann. Ist eine Variable protected, dann kann diese nur in protected branches oder tags verwendet werden. Relevant sind für uns die Variablen ID_SSH (SSH-Schlüssel), SERVER_ADDR (Adresse der virtuellen Maschine) & SERVER_USER (User auf dem Server). 
 
 Schauen wir uns aber mal den Code in der .yml-Datei an:
-![[Pasted image 20220608193721.png]]
-Ganz unten unter dem Punkt environment wird die Umgebung erstellt. Eine Umgebung gibt an, wo die Anwendung deployed wird und zeigt alle deployments (Versionen der Anwendung). Jedes Durchlaufen der Pipeline erzeugt ein neues deployment, wodurch die Verwaltung der Versionen besonders leicht ist. Unter "name" wird der Name festgelegt und unter "url" der Link zum Server, wo die Anwendung deployed werden soll.
+````
+deploy:
+  stage: deploy
+  variables:
+    IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  before_script:
+	# Die Änderung des SSH-Keys mittels chmod auf Lese- und Schreibzugriff für alle Nutzer ist wichtig, da es sonst zu Zugriffsfehlern kommt!
+    - chmod 600 $ID_SSH
+  script:
+	# Docker-Login per SSH 
+    - ssh -i $ID_SSH -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_ADDR "docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY"
+	# Das Docker-Image wird vom devsecops-Server gepullt 
+    - ssh -i $ID_SSH -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_ADDR "docker pull $IMAGE_TAG"
+    # Existiert bereits ein juice-shop-Container, wird dieser gelöscht.
+    - ssh -i $ID_SSH -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_ADDR "docker container rm -f juice-shop || true"
+    # Da für den Server nur ein Port offen ist, kann der Juice Shop-Container nicht gleichzeitig wie der todolist-Container laufen. Er wird daher ebenfalls entfernt.
+    - ssh -i $ID_SSH -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_ADDR "docker container rm -f todolist || true"
+    # Der Docker-Container wird mit docker run gestartet. Als Port wird 80:3000 gewählt (3000 als Port des Docker-Containers, 80 als Standard-HTML-Port des Servers)
+    - ssh -i $ID_SSH -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_ADDR "docker run -d -p 80:3000 --name juice-shop $IMAGE_TAG"
+    # Zugriffsrechte der SSH werden auf Lese- und Schreibzugriff für alle anderen Nutzer (other) gesetzt.
+    - chmod 606 $ID_SSH
+  environment:
+    name: juice-shop
+    url: http://$SERVER_ADDR
+
+````
+Ganz unten unter dem Punkt "environment" wird die Umgebung erstellt. Eine Umgebung gibt an, wo die Anwendung deployed wird und zeigt alle deployments (Versionen der Anwendung). Jedes Durchlaufen der Pipeline erzeugt ein neues deployment, wodurch die Verwaltung der Versionen besonders leicht ist. Unter "name" wird der Name festgelegt und unter "url" der Link zum Server, wo die Anwendung deployed werden soll.
 
 Unter Script findet das eigentliche deployen statt:
 - chmod og= $ID_SSH: Entzieht dem privaten Schlüssel alle Berechtigungen für die Gruppe und andere, sodass nur der Eigentümer ihn verwenden kann. Dies ist eine Voraussetzung, da SSH sonst die Arbeit mit dem privaten Schlüssel verweigert.
