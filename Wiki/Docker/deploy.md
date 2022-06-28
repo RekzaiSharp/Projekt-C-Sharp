@@ -35,7 +35,7 @@ deploy:
 Ganz unten unter dem Punkt "environment" wird die Umgebung erstellt. Eine Umgebung gibt an, wo die Anwendung deployed wird und zeigt alle deployments (Versionen der Anwendung). Jedes Durchlaufen der Pipeline erzeugt ein neues deployment, wodurch die Verwaltung der Versionen besonders leicht ist. Unter "name" wird der Name festgelegt und unter "url" der Link zum Server, wo die Anwendung deployed werden soll.
 
 Unter Script findet das eigentliche deployen statt:
-- chmod og= $ID_SSH: Entzieht dem privaten Schlüssel alle Berechtigungen für die Gruppe und andere, sodass nur der Eigentümer ihn verwenden kann. Dies ist eine Voraussetzung, da SSH sonst die Arbeit mit dem privaten Schlüssel verweigert.
+- chmod 600 $ID_SSH: Entzieht dem privaten Schlüssel alle Berechtigungen für die Gruppe und andere, sodass nur der Eigentümer ihn lesen und verändern kann. Dies ist eine Voraussetzung, da SSH sonst die Arbeit mit dem privaten Schlüssel verweigert.
 - ssh -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER @ $SERVER_IP "command": Die vier SSH Befehle folgen alle der obigen Vorlage. Lediglich der "command"-Abschnitt wird geändert.
 	- -i: steht für identity file und ist unsere ID_SSH-Datei.
 	- -o StrictHostKeyChecking=no: stellt sicher, dass die Frage "Trauen Sie dem remote host?" umgangen wird, da diese in einem nicht-interaktiven Kontext, wie der Pipeline, nicht beantwortet werden kann. 
