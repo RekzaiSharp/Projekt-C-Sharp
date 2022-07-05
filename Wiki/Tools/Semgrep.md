@@ -1,5 +1,9 @@
 # Semgrep
 
+Semgrep ist ein Tool zur semantischen Analyse des Codes auf Vulnerabilities und Secrets.
+
+Die Reports dienen den Entwicklern als Hilfe zum Schließen von (oftmals unwissentlich implementierten) Sicherheitslücken.
+
 ## Implementierung in die CI/CD-Pipeline
 
 Semgrep kann über einen Docker-Container aufgerufen werden:
@@ -80,3 +84,17 @@ Beim semgrep Aufruf in der CI/CD Pipeline kann man mit dem folgendem Kommando di
 
 Es lassen sich auch mehrere Regeln gleichzeitig ausführen lassen:
 `semgrep --config p/python --config myrules/myrule.yaml`
+
+
+##  Beispiele für Reports
+
+- <b>Warnung:</b> MD5 is a weak hash which is known to have collision. Use a strong hashing function.
+ --> Lösung: Auf einen sichereren Algorithmus (z.B. SHA256) umstellen.
+ 
+ - <b>Warnung:</b> crypto.pseudoRandomBytes()/Math.random() is a cryptographically weak random number generator.
+ --> Der Pseudo-RNG ist nur das: Pseudo. Der Algorithmus bevorzugt bestimmte Zahlen, basierend auf dem Seed und der genutzten Funktion, und kann geknackt werden.
+ --> Lösung: einen besseren Random Number Generator recherchieren. Der Security-Experte  des Unternehmens wäre eine gute Quellen für <u>zertifizierte</u> RNGs.
+ 
+- <b>Warnung:</b> User controlled data in eval() or similar function may result in Code Injection
+--> Über Nutzereingaben wie z.B. Formularfelder können (schädliche) Skripte ausgeführt werden! Dies muss über <u>Validierung</u> der Eingabe verhindert werden.
+Beispielsweise kann die Eingabe auf Sonderzeichen und Keywords, die für JavaScript/Typescript, SQL oder PHP-Befehle typisch sind ('\<script>', 'DROP TABLE', $) überprüft werden und diese gegebenenfalls entfernen oder "escapen" (etwa mit '\\' Backslash).

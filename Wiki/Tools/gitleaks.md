@@ -53,3 +53,11 @@ Um einen Nicht-Git-Ordner zu scannen, benötigt man die Option ``--no-git``.
 ### protect
 Wird auf Änderungen angewendet, die noch nicht committed wurden. Untersucht den Output des Befehls  ``git diff`` und kann nicht für Nicht-Git-Ordner verwendet werden.
 (Für uns vermutlich uninteressant).
+
+## Report: Generic API Keys
+
+- Gitleaks zeigt viele der "generic-api-keys" an. Diese werden aber <u>nicht</u> an den "Kunden" ausgeliefert, und sind daher (zumindest für uns) uninteressant.
+
+- Höchstens in einer Supply Chain Attack (siehe "3. Securing the Code") könnte ein offen auslesbarer API Key ein Sicherheitsproblem darstellen: hardgecodete Nutzernamen und Passwörter sind zwar komfortabel für Entwickler, ermöglichen aber einem Angreifer Vollzugriff, z.B. auf eine Datenbank.
+
+- Man kann diese Warnungen zwar unterdrücken, aber selbst Fr. Prof. Oetzel hat das noch nicht geschafft...

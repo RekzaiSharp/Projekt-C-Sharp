@@ -1,11 +1,15 @@
 # OWASP ZAP
---> Open Web Application Security Project - Zed Attack Proxy
+--> **O**pen **W**eb **A**pplication **S**ecurity **P**roject - **Z**ed **A**ttack **P**roxy
 
 ## Website
 https://www.zaproxy.org/
 
 Ein Open-Source-Tool von OWASP, das einen dynamischen Penetration Test ("Pentest") von Webanwendungen ermöglicht.
-ZAP funktioniert wie eine "Man-in-the-Middle"-Attack: es versucht als Proxy zwischen dem Browser und der Webapplikation Nachrichten abzufangen, ihre Inhalte auszulesen und zu modifizieren. 
+
+Diese werden für gewöhnlich manuell durch einen Security-Experten ausgeführt, der auch die Expertise besitzt, den Zed Attack Proxy optimal zu konfigurieren (auf Basis der Business-Logik des Systems z.B.). Dies war auch das ursprüngliche Ziel für OWASP ZAP: ein Tool zur Unterstützung der Security-Experten bei ZAP-Tests. Die automatische Einbindung in eine CI/CD-Pipeline ist ein neueres Feature von OWASP ZAP.
+
+ZAP funktioniert wie eine "Man-in-the-Middle"-Attack: es versucht als Proxy zwischen dem Browser und der Webapplikation Nachrichten abzufangen, ihre Inhalte auszulesen und zu modifizieren.
+
 Das Tool ist als Desktop-Version verfügbar, lässt sich aber in die CI/CD-Pipeline einbinden (siehe "Anwendung").
 
 ## Installation
@@ -61,3 +65,10 @@ Eine Spider ist ein Programm, die eine Webseite oder Webapplikation nach Links a
 Eine Wiki für OWASP ZAP ist auf GItHub verfügbar:
 https://github.com/zaproxy/zaproxy/wiki
 
+
+## Beispiele für Reports
+
+- <b>Backup File Disclosure</b>
+	--> Automatisch generierte Backup-Dateien werden oft mit Zeichen wie "dateiname1.xml" oder "dateiname.xml.bk" versehen. Diese sollten <u>unbedingt</u> gelöscht werden (gerne auch automatisiert), um externen Zugriff und Manipulation zu verhindern.
+	--> Aus dem gleichen Grund sollten Backup-Dateien <u>nicht</u> von Hand auf dem Server ("in-situ") bearbeitet werden! Hierfür sollte die Deployment-Pipeline genutzt werden.
+ 
