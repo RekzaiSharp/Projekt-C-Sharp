@@ -23,12 +23,12 @@ _Stages: build, test, sast, package, sca-package, publish, sca-container, dast, 
 **CICD Projekt 2 - Juice Shop**
 _Stages: packages, sast, sca-package, publish, sca-container, deploy, dast, clean-storage_
 
-**package:** [package](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/1.%20package)
-**sast:** [semgrep](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/2.%20sast-semgrep)
-**sast:** [gitleaks](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/3.%20sast-gitleaks)
-**sca-package:** [sca-package-dependency-check](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/4.%20sca-package-dependency-check)
-**publish:** [publish-container](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/5.%20publish-container)
-**sca-container:** [sca-container-trivy](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/6.%20sca-container-trivy)
-**dast:** [dast-zap](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/7.%20dast-zap)
-**deploy:** [deploy](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/8.%20deploy)
+**package:**          [package](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/1.%20package)
+**sast:**                  [semgrep](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/2.%20sast-semgrep)
+**sast:**                  [gitleaks](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/3.%20sast-gitleaks)
+**sca-package:**    [sca-package-dependency-check](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/4.%20sca-package-dependency-check)
+**publish:**            [publish-container](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/5.%20publish-container)
+**sca-container:**  [sca-container-trivy](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/6.%20sca-container-trivy)
+**dast:**                 [dast-zap](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/7.%20dast-zap)
+**deploy:**             [deploy](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/8.%20deploy)
 **clean-storage:** [clean-storage](Wiki/CICD%20Jobs/Juice%20Shop-Pipeline/9.%20clean-storage)
